@@ -1,0 +1,64 @@
+
+
+// zavisimostb
+
+npm install --save react-router-dom
+
+
+//eksport komponentov vsegda 4erez default
+
+export default (name)
+
+nastroika 
+jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
+i togda improt bydet na4inatbsya s papki src
+import mudule from 
+
+
+
+//dobavlenie globalbnih peremennih
+
+const$ = window.$; obyazatelbno 4erez $
+
+
+
+//dobavlenie bootstrap
+npm install bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+
+esli eto scss
+
+to sozdaem fail src/custom.scss
+// Override default variables before the import
+$body-bg: #000;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+i v js 
+import /.custom.scss
+
+
+
+
+
+
+//dobavlenie typescript
+
+//v noviy proek 
+npm create-react-app my-app --template typescript
+// v syshestviyshiy
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+
+//servise-worker
+
+npx create-react-app my-app --template cra-template-pwa
+serviceWorkerRegistration.unregister(); pereklychitb na register
+
